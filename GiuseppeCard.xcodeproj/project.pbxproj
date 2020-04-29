@@ -11,7 +11,8 @@
 		D83AA76A24571E0F00CBAD4B /* GitHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83AA76924571E0F00CBAD4B /* GitHubView.swift */; };
 		D83AA76C245721E000CBAD4B /* ResumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83AA76B245721E000CBAD4B /* ResumeView.swift */; };
 		D8443FD724596BE9003F2036 /* Merienda-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8443FD624596BE9003F2036 /* Merienda-Regular.ttf */; };
-		D8443FD924596DDD003F2036 /* ShadowsIntoLight-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8443FD824596DDD003F2036 /* ShadowsIntoLight-Regular.ttf */; };
+		D8443FDB24597606003F2036 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D8443FDA24597606003F2036 /* README.md */; };
+		D8443FDE245977F3003F2036 /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = D8443FDD245977F3003F2036 /* Screenshot.png */; };
 		D855CFA1242359DF00003440 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D855CFA0242359DF00003440 /* AppDelegate.swift */; };
 		D855CFA3242359DF00003440 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D855CFA2242359DF00003440 /* SceneDelegate.swift */; };
 		D855CFA5242359DF00003440 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D855CFA4242359DF00003440 /* ContentView.swift */; };
@@ -30,7 +31,8 @@
 		D83AA76924571E0F00CBAD4B /* GitHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubView.swift; sourceTree = "<group>"; };
 		D83AA76B245721E000CBAD4B /* ResumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeView.swift; sourceTree = "<group>"; };
 		D8443FD624596BE9003F2036 /* Merienda-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merienda-Regular.ttf"; sourceTree = "<group>"; };
-		D8443FD824596DDD003F2036 /* ShadowsIntoLight-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShadowsIntoLight-Regular.ttf"; sourceTree = "<group>"; };
+		D8443FDA24597606003F2036 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D8443FDD245977F3003F2036 /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 		D855CF9D242359DF00003440 /* GiuseppeCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiuseppeCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D855CFA0242359DF00003440 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D855CFA2242359DF00003440 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +58,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D8443FDC24597698003F2036 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D8443FDD245977F3003F2036 /* Screenshot.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		D855CF94242359DF00003440 = {
 			isa = PBXGroup;
 			children = (
+				D8443FDA24597606003F2036 /* README.md */,
 				D855CF9F242359DF00003440 /* GiuseppeCard */,
 				D855CF9E242359DF00003440 /* Products */,
 			);
@@ -75,7 +86,7 @@
 		D855CF9F242359DF00003440 /* GiuseppeCard */ = {
 			isa = PBXGroup;
 			children = (
-				D83AA7622456F8BB00CBAD4B /* GiuseppeCard.entitlements */,
+				D8443FDC24597698003F2036 /* Images */,
 				D855CFB424235CFC00003440 /* Fonts */,
 				D855CFA0242359DF00003440 /* AppDelegate.swift */,
 				D855CFA2242359DF00003440 /* SceneDelegate.swift */,
@@ -89,6 +100,7 @@
 				D855CFA6242359E000003440 /* Assets.xcassets */,
 				D855CFAB242359E000003440 /* LaunchScreen.storyboard */,
 				D855CFAE242359E000003440 /* Info.plist */,
+				D83AA7622456F8BB00CBAD4B /* GiuseppeCard.entitlements */,
 				D855CFA8242359E000003440 /* Preview Content */,
 			);
 			path = GiuseppeCard;
@@ -107,7 +119,6 @@
 			children = (
 				D855CFB524235D2900003440 /* Pacifico-Regular.ttf */,
 				D8443FD624596BE9003F2036 /* Merienda-Regular.ttf */,
-				D8443FD824596DDD003F2036 /* ShadowsIntoLight-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -173,10 +184,11 @@
 				D855CFAD242359E000003440 /* LaunchScreen.storyboard in Resources */,
 				D855CFB624235D2900003440 /* Pacifico-Regular.ttf in Resources */,
 				D855CFAA242359E000003440 /* Preview Assets.xcassets in Resources */,
+				D8443FDB24597606003F2036 /* README.md in Resources */,
 				D86A4DDF24582198005726A6 /* Resume.pdf in Resources */,
 				D8443FD724596BE9003F2036 /* Merienda-Regular.ttf in Resources */,
 				D855CFA7242359E000003440 /* Assets.xcassets in Resources */,
-				D8443FD924596DDD003F2036 /* ShadowsIntoLight-Regular.ttf in Resources */,
+				D8443FDE245977F3003F2036 /* Screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
