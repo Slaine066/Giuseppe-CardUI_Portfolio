@@ -3,4 +3,4 @@
 
 A simple Portfolio-App made in SwiftUI. Download to see my Resume and Contact Informations.
 
-![](GiuseppeCard/Images/Screenshot.png =250x)
+<img src="GiuseppeCard/Images/Screenshot.png" alt="" width="200"/>
